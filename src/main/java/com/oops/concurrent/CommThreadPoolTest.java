@@ -57,6 +57,7 @@ public class CommThreadPoolTest {
      */
     @Test
     public void testsSheduledThreadPool(){
+        String s = "";
         ExecutorService executorService = Executors.newScheduledThreadPool(10);
     }
 
