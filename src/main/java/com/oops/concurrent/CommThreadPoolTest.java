@@ -42,6 +42,7 @@ public class CommThreadPoolTest {
     @Test
     public void testFixedThreadPool(){
 //        ExecutorService executors = Executors.newFixedThreadPool(10);
+        String ssss = "";
         ExecutorService executors = Executors.newFixedThreadPool(10, new ThreadFactory() {
             @Override
             public Thread newThread(Runnable r) {
