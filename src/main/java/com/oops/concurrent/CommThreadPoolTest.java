@@ -42,7 +42,6 @@ public class CommThreadPoolTest {
     @Test
     public void testFixedThreadPool(){
 //        ExecutorService executors = Executors.newFixedThreadPool(10);
-        String ssss = "";
         ExecutorService executors = Executors.newFixedThreadPool(10, new ThreadFactory() {
             @Override
             public Thread newThread(Runnable r) {
@@ -57,7 +56,6 @@ public class CommThreadPoolTest {
      */
     @Test
     public void testsSheduledThreadPool(){
-        String s = "";
         ExecutorService executorService = Executors.newScheduledThreadPool(10);
     }
 
